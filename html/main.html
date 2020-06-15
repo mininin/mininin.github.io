@@ -1,6 +1,6 @@
 <html>
     <head>
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/5.13.0/css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/5.13.0/css/fontawesome.min.css">
         <title>
 
         </title>
@@ -10,7 +10,14 @@
     
     </style>
 
-    <body>
-        <span class="fas fa-battery-full"></span>
+    <body onload="time()">
+        <div class="layout">
+            <div class="status_bar">
+                <div class="status_time"></div>
+                <div class="status_else">
+                    <span class="fas fa-battery-full"></span>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
