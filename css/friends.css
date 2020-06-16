@@ -1,0 +1,29 @@
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title .title_name {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.title_function span {
+    font-size: 18px;
+}
+
+
+.people {
+    margin-top: 20px;
+}
+
+.self {
+    display: flex;
+
+}
+
+.self img {
+    width: 60px;
+    height: 60px;
+    border-radius: 0.7rem;
+}

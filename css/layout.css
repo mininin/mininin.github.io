@@ -1,0 +1,10 @@
+.layout {
+    width: 380px;
+    height: 670px;
+}
+
+.layout iframe {
+    width: 380px;
+    height: 600px;
+    padding: 25px 20px 10px 20px;
+}
