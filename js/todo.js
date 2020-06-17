@@ -5,13 +5,22 @@ const ftoDoForm = document.querySelector(".js-toDoList"),
 const TODOS_LS = 'toDos';
 
 function paintToDo(text) {
-    console.log(text);
+    const li = document.createElement("li");
+    const delBtn = documnet.createElement("button");
+    delBtn.innerHTML = "X";
+    const span = document.createElement("span");
+    span.innerText = text;
+    li.appendChild(span);
+    li.appendChild(delBtn);
+    toDoList.appendChild(li);
+
 }
 
 function handleSubmit(event) {
     event.prevenDafault();
     const currentValue = tpDpInput.value;
     paintToDo(currentValue);
+    toDoInput.value = "";
 }
 
 function loadToDos() {
