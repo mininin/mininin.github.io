@@ -7,7 +7,7 @@ const TODOS_LS = 'toDos';
 function paintToDo(text) {
     const li = document.createElement("li");
     const delBtn = documnet.createElement("button");
-    delBtn.innerHTML = "X";
+    delBtn.innerText = "X";
     const span = document.createElement("span");
     span.innerText = text;
     li.appendChild(span);
@@ -24,7 +24,7 @@ function handleSubmit(event) {
 }
 
 function loadToDos() {
-    const toDos = localStorage.getItem();;
+    const toDos = localStorage.getItem(TODOS_LS);;
     if(toDos !== null) {
 
     }
