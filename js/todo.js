@@ -13,11 +13,10 @@ function paintToDo(text) {
     li.appendChild(span);
     li.appendChild(delBtn);
     toDoList.appendChild(li);
-
 }
 
 function handleSubmit(event) {
-    event.prevenDafault();
+    event.preventDefault();
     const currentValue = tpDpInput.value;
     paintToDo(currentValue);
     toDoInput.value = "";
