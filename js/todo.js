@@ -17,7 +17,7 @@ function paintToDo(text) {
 
 function handleSubmit(event) {
     event.preventDefault();
-    const currentValue = tpDpInput.value;
+    const currentValue = toDoInput.value;
     paintToDo(currentValue);
     toDoInput.value = "";
 }
