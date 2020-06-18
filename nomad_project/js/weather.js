@@ -1,3 +1,10 @@
+/*
+site:   openweathermap.org
+id:     mingoo4
+email:  wlals.june@gmail.com
+pw :    same lol ID
+*/
+
 const API_KEY = "268a837324d7bb6c073afdd674f06900";
 const COORDS = "coords";
 

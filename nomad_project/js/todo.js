@@ -19,10 +19,7 @@ function deleteToDo(event) {
     //console.dir(event.target.parentNode);
     const btn = event.target;
     const li = btn.parentNode;
-
-    console.log(btn);
-    console.log(li);
-    console.log(event.target.parentNode);
+    //const li = event.target.parentNode;로 바꿀 수 있음
     
     toDoList.removeChild(li);
     const cleanToDos = toDos.filter(function(toDo){
