@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+
+        </title>
+        <link rel="stylesheet" href="../css/style.css">
+
+        <!-- 반응형 슬라이더 swiper 웹퍼블리싱-->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    </head>
+    <body>
+        <div class="layout">
+            <div class="ytmusic">
+                <!-- 
+                    youtube api 쓰는 법
+                    https://developers.google.com/youtube/player_parameters?hl=ko
+                    https://developers.google.com/youtube/iframe_api_reference?hl=ko#Loading_a_Video_Player
+                 -->
+                <iframe id="player" src="https://www.youtube.com/embed?listType=playlist&list=PLtKkXMCZlK83N4lwSgcN_LbuhVyFWkbTn">
+                </iframe>
+            </div>
+            <div class="status">
+                <div class="clock">
+                    <!-- time -->
+                </div>
+                <div class="weather">
+                    <!-- weather-->
+                </div>
+            </div>
+            <div class="menu">
+                <div class="home">
+                    <!-- home link img -->
+                    home
+                </div>
+                <div class="cont_menu">
+                    <!-- drop down menu -->
+                    <div class="child_menu">
+                        menu1
+                        <div class="dropdown_menu">
+                            <li><a href="">none</a></li>
+                            <li><a href="">none2</a></li>
+                        </div> 
+                    </div>
+                    <div class="child_menu">
+                        menu2
+                        <div class="dropdown_menu">
+                            <li><a href="">none</a></li>
+                            <li><a href="">none2</a></li>
+                        </div> 
+                    </div>
+                    <div class="child_menu">
+                        menu3
+                        <div class="dropdown_menu">
+                            <li><a href="">none</a></li>
+                            <li><a href="">none2</a></li>
+                        </div> 
+                    </div>
+                    <div class="child_menu">
+                        menu4
+                        <div class="dropdown_menu">
+                            <li><a href="">none</a></li>
+                            <li><a href="">none2</a></li>
+                        </div> 
+                    </div>
+                </div>
+                <div class="login">
+                    <!-- login -->
+                    login
+                </div>
+            </div>
+
+            <div class="middle">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            Img
+                        </div>
+
+                        <div class="swiper-slide">
+                            <iframe class="" src="https://www.youtube.com/embed/25bmKETpBXc" height="506" width="900">
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+
+            <div class="tail">
+                <div>
+                    test
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="../js/dropdown.js" charset="utf-8"></script>
+        <script type="text/javascript" src="../js/clock.js" charset="utf-8"></script>
+        <script type="text/javascript" src="../js/weather.js" charset="utf-8"></script>
+        <!-- <script type="text/javascript" src="../js/bg.js" charset="utf-8"></script> -->
+        <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+        <script type="text/javascript" src="../js/swiper.js" charset="utf-8"></script>
+        <!-- <script type="text/javascript" src="../js/ytmusic.js" charset="utf-8"></script> -->
+    </body>
+</html>

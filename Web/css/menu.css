@@ -1,0 +1,53 @@
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 01 0px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.status {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.home {
+}
+
+.login {
+}
+
+.cont_menu {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.child_menu {
+}
+
+.dropdown_menu {
+    display: none;
+    position: absolute;
+    
+    animation: onmouse 0.7s linear;
+}
+.dropdown_menu li {
+    padding: 15px 5px 0 5px;
+}
+
+@keyframes onmouse {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.showing {
+    display: block;
+    z-index: 2;
+}

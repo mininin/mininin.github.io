@@ -1,0 +1,30 @@
+@import "reset.css";
+@import "menu.css";
+@import "middle.css";
+@import "tail.css";
+@import "ytmusic.css";
+
+html, body {
+    height: 100%;
+}
+html {
+    display: table;
+    margin: auto;
+}
+
+.layout {
+    width: 1111px;
+    margin-top: 50px;
+}
+
+body {
+    vertical-align: middle;
+}
+
+a, a:link, a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+li {
+}
