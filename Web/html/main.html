@@ -10,16 +10,17 @@
         <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
     </head>
     <body>
+        <div class="ytmusic">
+            <!-- 
+                youtube api 쓰는 법
+                https://developers.google.com/youtube/player_parameters?hl=ko
+                https://developers.google.com/youtube/iframe_api_reference?hl=ko#Loading_a_Video_Player
+             -->
+            <!-- <iframe class="music" src="https://www.youtube.com/embed?listType=playlist&list=PLtKkXMCZlK83N4lwSgcN_LbuhVyFWkbTn" width="800" height="600"> -->
+            <iframe class="music" src="https://www.youtube.com/embed/SlIU8_o2yjo?autoplay=1" width="800" height="600"></iframe>
+            </iframe>
+        </div>
         <div class="layout">
-            <div class="ytmusic">
-                <!-- 
-                    youtube api 쓰는 법
-                    https://developers.google.com/youtube/player_parameters?hl=ko
-                    https://developers.google.com/youtube/iframe_api_reference?hl=ko#Loading_a_Video_Player
-                 -->
-                <iframe id="player" src="https://www.youtube.com/embed?listType=playlist&list=PLtKkXMCZlK83N4lwSgcN_LbuhVyFWkbTn">
-                </iframe>
-            </div>
             <div class="status">
                 <div class="clock">
                     <!-- time -->
@@ -66,7 +67,7 @@
                 </div>
                 <div class="login">
                     <!-- login -->
-                    login
+                    <button class="pli">Pli</button>
                 </div>
             </div>
 
@@ -78,7 +79,7 @@
                         </div>
 
                         <div class="swiper-slide">
-                            <iframe class="" src="https://www.youtube.com/embed/25bmKETpBXc" height="506" width="900">
+                            <iframe class="video" src="https://www.youtube.com/embed/25bmKETpBXc" height="506" width="900">
                             </iframe>
                         </div>
                     </div>
@@ -99,6 +100,6 @@
         <!-- <script type="text/javascript" src="../js/bg.js" charset="utf-8"></script> -->
         <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
         <script type="text/javascript" src="../js/swiper.js" charset="utf-8"></script>
-        <!-- <script type="text/javascript" src="../js/ytmusic.js" charset="utf-8"></script> -->
+        <script type="text/javascript" src="../js/pli.js" charset="utf-8"></script>
     </body>
 </html>

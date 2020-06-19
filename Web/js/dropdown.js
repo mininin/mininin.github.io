@@ -5,15 +5,15 @@ const child_menu = document.querySelector(".child_menu"),
 // className Add
 const showing = "showing";
 
-child_menu.onmouseover = function(event) {
+child_menu.onmouseover = function() {
     dropdown_menu.classList.add(showing);
 }
 
-child_menu.onmouseout = function(event) {
+child_menu.onmouseout = function() {
     dropdown_menu.classList.remove(showing);
 }
 
-dropdown_menu.onmouseout = function(event) {
+dropdown_menu.onmouseout = function() {
     dropdown_menu.classList.remove(showing);
 }
 
