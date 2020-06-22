@@ -6,8 +6,6 @@ const show_pli = "show_pli";
 const in_pli = "in_pli";
 const out_pli = "out_pli";
 
-const status = 1;
-
 // pli button click event
 pli.onclick = function() {
     ytmusic.classList.add(show_pli, in_pli);
