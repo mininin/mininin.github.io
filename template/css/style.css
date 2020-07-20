@@ -1,0 +1,118 @@
+@import "reset.css";
+@import "nav.css";
+@import "list.css";
+
+* {
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+}
+
+.img2 {
+    align-content: center;
+}
+
+body {
+    background-color: white;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+
+    position: fixed;
+    width: 100%;
+    background-color: white;
+
+}
+
+.header {
+    padding: 0px 80px 0 40px;
+}
+.list {
+    padding: 0px 80px 20px 80px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid gray;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    border-bottom: 1px solid gray;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_bar_list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.time {
+    text-align: right;
+    font-size: 15px;
+}
+
+
+.section {
+    display: flex;
+    flex-direction: column;
+    padding-top: 185px;
+}
+
+.asdf {
+    display: flex;
+    justify-content: space-between;
+}
+
+.one {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.list li {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+[class*='mi_list'] {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+[class*='mi_list'] li {
+    font-size: 15px;
+    padding: 4px 0px 0px 0px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.asdf {
+    background-color: ivory;
+    margin-left: 138px;
+    margin-right: 138px;
+    
+}
+
+.tool_bar {
+    background-color: ivory;
+    margin-left: 138px;
+    margin-right: 138px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
