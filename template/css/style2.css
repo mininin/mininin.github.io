@@ -1,6 +1,4 @@
 @import "reset.css";
-@import "nav.css";
-@import "list.css";
 
 * {
     box-sizing: border-box;
@@ -30,14 +28,15 @@ body {
     position: fixed;
     width: 100%;
     background-color: white;
+    
 
 }
 
 .header {
-    padding: 0px 80px 0 40px;
+    padding: 0px 145px 0 115px;
 }
 .list {
-    padding: 0px 80px 20px 80px;
+    padding: 0px 145px 20px 145px;
     margin-bottom: 0px;
     border-bottom: 1px solid gray;
 }
@@ -52,11 +51,13 @@ body {
 .list {
     display: flex;
     justify-content: space-between;
+    margin-top: 18px;
 }
 
 .nav_bar_list {
     display: flex;
     justify-content: space-between;
+    margin-top: 15px;
 }
 
 .time {
@@ -68,17 +69,16 @@ body {
 .section {
     display: flex;
     flex-direction: column;
-    padding-top: 185px;
+    padding-top: 165px;
 }
 
-.asdf {
-    display: flex;
-    justify-content: space-between;
-}
-
-.one {
+[class*='one'] {
     font-size: 25px;
     font-weight: bold;
+}
+
+.two {
+    margin-left: 3px;
 }
 
 .list li {
@@ -102,10 +102,13 @@ body {
 }
 
 .asdf {
+    display: flex;
+    justify-content: space-between;
     background-color: ivory;
+
     margin-left: 138px;
     margin-right: 138px;
-    
+
 }
 
 .tool_bar {
